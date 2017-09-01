@@ -30,6 +30,6 @@ Listeners is Listener Empire considered as parallel Handler Metasploit A Have a 
 ###### What Is UseListener
 ###### useListeners-Empire ? It contains base from Communication protocols
 ###### dbx ttp_com http_hop
-h######  ttp http_foreign meterpreter And responsible for activation protocols Empire 
+###### http http_foreign meterpreter And responsible for activation protocols Empire 
 
 
