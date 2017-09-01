@@ -13,7 +13,6 @@
 ## --- Here will be displayed All Module Empire-Powershell my !
 
 ![wallhaven-205608](https://user-images.githubusercontent.com/25440152/29684174-007ca708-88df-11e7-93d8-14a6523696c3.jpg)
-                                        ![default project](https://user-images.githubusercontent.com/25440152/29743125-52174836-8a59-11e7-95c1-c2492ca1796c.gif)
 
 ### what is the Empire-post-exploitation ??? 
 Speech here does not violate the rights of the tool the Text from Site Tool ::) 
