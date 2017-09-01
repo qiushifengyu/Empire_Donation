@@ -25,7 +25,7 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 
 ### ok !! What is Listener ::) 
 ------------------
-Listeners is Listener Empire considered as parallel Handler Metasploit A Have a listening connection Protocol http And http_hop dbx And And And etc ... This connection hangs until it is open Payload From Pc the Target You will receive the goal
+###### Listeners is Listener Empire considered as parallel Handler Metasploit A Have a listening connection Protocol http And http_hop dbx And And And etc ... This connection hangs until it is open Payload From Pc the Target You will receive the goal
 ------------------
 ###### What Is UseListener
 ###### useListeners-Empire ? It contains base from Communication protocolsdbx ttp_com http_hop http http_foreign meterpreter And responsible for activation protocols Empire Without them, protocols are not activated
