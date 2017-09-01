@@ -29,5 +29,8 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 ------------------
 ### What Is UseListener ::)
 ###### useListeners-Empire ? It contains base from Communication protocolsdbx ttp_com http_hop http http_foreign meterpreter And responsible for activation protocols Empire Without them, protocols are not activated
+------------------
 
+### What is Name Payloads Empire Stager 
+##### The number of bytes for unlimited PAyload cannot  or Be small in size Always be very large size like Payloads Meterprter Features of Enlarge Volume
 
