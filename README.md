@@ -37,4 +37,6 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 --------------
 
 ### Now note to define some From Module Empire-PN My ::)!
-###### Bypass-ScriptBlock.ps1 
+-----------------------------
+
+    ###### Bypass-ScriptBlock.ps1 
