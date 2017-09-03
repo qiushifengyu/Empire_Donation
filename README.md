@@ -34,4 +34,7 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 ### What is Name Payloads Empire Stager 
 ----
 ###### The number of bytes for unlimited PAyload cannot  or Be small in size Always be very large size like Payloads Meterprter Features of Enlarge Volume Encryption Payload of protections the Windows This is one of the reasons
+--------------
 
+### Now note to define some From Module Empire-PN My ::)!
+####### Bypass-ScriptBlock.ps1 
