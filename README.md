@@ -40,7 +40,7 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 ### Now note to define some From Module Empire-PN My ::)!
 -----------------------------
 
-   ###### Bypass-ScriptBlock.ps1 
+   ###### Bypass-ScriptBlock 
    ```
    ================================================================
  [Empire]  Post-Exploitation Framework
@@ -69,3 +69,30 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 (Empire: powershell/management/ScriptBlock) > execute 
              Bypass ScriptBlock completed 
   ```
+### Memory-spasm
+------------------------
+-----
+
+
+Create spasm and consumption in memory and anxiety
+Create spasm and consumption in memory and anxiety by InfDefaultInstall.exe ok What is the InfDefaultInstall.exe ?
+
+InfDefaultInstall.exe is a type of EXE file associated with Windows 10 Home Premium developed by Microsoft for the Windows Operating System. The latest known version of InfDefaultInstall.exe is 1.0.0.0, which was produced for Windows. This EXE file carries a popularity rating of 1 stars and a security rating of “UNKNOWN”.
+
+Memory is consumed by running Thousands of them The reason for such an opening is to execute a command directly on Powershell
+
+There are a lot of mistakes that exist on them::) 
+“InfDefaultInstall.exe Application Error.”
+
+    “InfDefaultInstall.exe is not a valid Win32 application.”
+    “InfDefaultInstall.exe has encountered a problem and needs to close. We are sorry for the inconvenience.”
+    “Cannot find InfDefaultInstall.exe.”
+    “InfDefaultInstall.exe not found.”
+    “Error starting program: InfDefaultInstall.exe.”
+    “InfDefaultInstall.exe is not running.”
+    “InfDefaultInstall.exe failed.”
+    “Faulting Application Path: InfDefaultInstall.exe.”
+    — — — — — — — — — — — — — — — — — — — — — — — —
+    But this error is very different, my friend !!
+
+
