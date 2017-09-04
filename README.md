@@ -83,16 +83,26 @@ Memory is consumed by running Thousands of them The reason for such an opening i
 There are a lot of mistakes that exist on them::) 
 “InfDefaultInstall.exe Application Error.”
 
-  “InfDefaultInstall.exe is not a valid Win32 application.”
-  “InfDefaultInstall.exe has encountered a problem and needs to close. We are sorry for the inconvenience.”
-  “Cannot find InfDefaultInstall.exe.”
-  “InfDefaultInstall.exe not found.”
-  “Error starting program: InfDefaultInstall.exe.”
-  “InfDefaultInstall.exe is not running.”
-  “InfDefaultInstall.exe failed.”
-  “Faulting Application Path: InfDefaultInstall.exe.”
-   — — — — — — — — — — — — — — — — — — — — — — — —
- But this error is very different, my friend !!
+
+ “InfDefaultInstall.exe is not a valid Win32 application.”
+
+“InfDefaultInstall.exe has encountered a problem and needs to close. We are sorry for the inconvenience.”
+
+“Cannot find InfDefaultInstall.exe.”
+
+“InfDefaultInstall.exe not found.”
+
+“Error starting program: InfDefaultInstall.exe.”
+
+“InfDefaultInstall.exe is not running.”
+
+“InfDefaultInstall.exe failed.”
+
+“Faulting Application Path: InfDefaultInstall.exe.”
+
+— — — — — — — — — — — — — — — — — — — — — — — —
+
+But this error is very different, my friend !!
 
 
 
