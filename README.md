@@ -37,6 +37,12 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 --------------
 
 
+### What is the Module Python And Powershell In Project Empire-PN
+###### Ie from Module Python Is Designed only on Python Just no other
+![screenshot from 2017-09-04 13-33-01](https://user-images.githubusercontent.com/25440152/30030755-bf8c9fa6-915c-11e7-83b9-01fabb2bec8c.png)
+---------------------------------
+And Scripts Module Powershell !! Designer by Python 
+
 ### Now note to define some From Module Empire-PN My ::)!
 -----------------------------
 
@@ -104,7 +110,7 @@ There are a lot of mistakes that exist on them::)
 
 But this error is very different, my friend !!
 
-
+--------------
 
 
 
