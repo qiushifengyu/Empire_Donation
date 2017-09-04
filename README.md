@@ -41,7 +41,15 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 ###### Ie from Module Python Is Designed only on Python Just no other
 ![screenshot from 2017-09-04 13-33-01](https://user-images.githubusercontent.com/25440152/30030755-bf8c9fa6-915c-11e7-83b9-01fabb2bec8c.png)
 ---------------------------------
-And Scripts Module Powershell !! Designer by Python 
+And Scripts Module Powershell !! Designer by Python Just to view information on Terminal But Implementation by Code Powershell 
+Before all I take a simple look at Path In Editor Next Do you notice 
+###### moduleSource = self.mainMenu.installPath + "/data/module_source/management/Cobalt-strike.ps1"
+![screenshot from 2017-09-04 15-54-20](https://user-images.githubusercontent.com/25440152/30034647-b0bb6c46-9170-11e7-8fa9-c2ae64b6ea4b.png)
+## That is pegged to By Python 
+short Python Information Viewer In Module And Code Powershell Job port 
+Explains here that > Path 
+###### moduleSource = self.mainMenu.installPath + "/data/module_source/management/Cobalt-strike.ps1"
+
 
 ### Now note to define some From Module Empire-PN My ::)!
 -----------------------------
