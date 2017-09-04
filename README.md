@@ -67,5 +67,5 @@ Empire is a pure PowerShell post-exploitation agent built on cryptologically-sec
 (Homjxi0e) > usemodule management/ScriptBlock
 (Empire: powershell/management/ScriptBlock) > set Agent Homjxi0e
 (Empire: powershell/management/ScriptBlock) > execute 
-
+             Bypass ScriptBlock completed 
   ```
