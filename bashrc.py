@@ -17,10 +17,10 @@ class Stager:
             ]
         }
 
-        # any options needed by the stager, settable during runtime
+         
         self.options = {
-            # format:
-            #   value_name : {description, required, default_value}
+             
+             
             'Listener' : {
                 'Description'   :   'Listener to generate stager for.',
                 'Required'      :   True,
@@ -48,26 +48,26 @@ class Stager:
             }
         }
 
-        # save off a copy of the mainMenu object to access external functionality
-        #   like listeners/agent handlers/etc.
+         
+         
         self.mainMenu = mainMenu
 
         for param in params:
-            # parameter format is [Name, Value]
+        
             option, value = param
             if option in self.options:
                 self.options[option]['Value'] = value
 
     def generate(self):
 
-        # extract all of our options
+       
         language = self.options['Language']['Value']
         listenerName = self.options['Listener']['Value']
         userAgent = self.options['UserAgent']['Value']
         safeChecks = self.options['SafeChecks']['Value']
 	OutFile = self.options['OutFile']['Value']
 
-        # generate the launcher code
+        
         launcher = self.mainMenu.stagers.generate_launcher(listenerName, language=language, encode=True, userAgent=userAgent, safeChecks=safeChecks)
 
         if launcher == "":
@@ -76,5 +76,5 @@ class Stager:
 
         else:
             script = "#!/bin/bash\n"
-	    script += "%s\n" %(launcher)
+            script += "%s\n" %(launcher)
             return script
