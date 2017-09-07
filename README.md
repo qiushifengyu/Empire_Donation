@@ -1,10 +1,4 @@
-
-![slide1](https://user-images.githubusercontent.com/25440152/30161987-259b03d2-93d3-11e7-934c-44e2fb68d758.png)
-
-![slide1](https://user-images.githubusercontent.com/25440152/30162272-79bf86b2-93d4-11e7-81a2-fbe77afaa2cd.PNG)
-
-
-Empire](https://user-images.githubusercontent.com/25440152/29976982-e0831f5a-8f09-11e7-92f7-f5e6772d5e76.png)](https://www.powershellempire.com/)
+![Empire](https://user-images.githubusercontent.com/25440152/29976982-e0831f5a-8f09-11e7-92f7-f5e6772d5e76.png)](https://www.powershellempire.com/)
 ![powershell_5 0_icon](https://user-images.githubusercontent.com/25440152/29977080-2f28bb24-8f0a-11e7-9e77-d4b792fb9807.png)
 ![1092296](https://user-images.githubusercontent.com/25440152/29977114-4b7aff30-8f0a-11e7-9972-b4f2139a845f.gif)
 
