@@ -1,4 +1,3 @@
-from lib.common import helpers;'][]'
 
 class Stager:
 
