@@ -8,7 +8,7 @@ class Stager:
 
             'Author': ['@Matt Homjxie'],
 
-            'Description': ('Generate Script in file .bashrc.'),
+            'Description': ('Generate Script in file .bashrc execute Payload Automatic Once the file is dropped in Path Home In file Target.'),
 
             'Comments': [
                 'https://twitter.com/homjxi0e'
