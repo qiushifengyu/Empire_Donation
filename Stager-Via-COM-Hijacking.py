@@ -6,12 +6,13 @@ class Stager:
         self.info = {
             'Name': 'Bashrc file',
 
-            'Author': '@Matt Homjxie',
+            'Author': '@homjxie @subTee',
 
             'Description': ('execute Stager in sct via COM-Hijacking|  echo @="">>COMHijack.reg.'),
 
             'Comments': [
                 'https://twitter.com/homjxi0e'
+		'https://twitter.com/subTee'
             ]
         }
 
