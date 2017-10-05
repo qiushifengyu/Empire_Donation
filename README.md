@@ -15,52 +15,47 @@
 ![wallhaven-205608](https://user-images.githubusercontent.com/25440152/29684174-007ca708-88df-11e7-93d8-14a6523696c3.jpg)
 ---------------------------------
 
-Path File Memory-spasm.py     to  
-
+Path File Memory-spasm.py =
 Empire/lib/modules/management/
-Path File Memory-spasm.pyc   to  
 
+Path File Memory-spasm.pyc =
 Empire/lib/modules/management/
-Path File Memory-spasm.ps1   to
 
+Path File Memory-spasm.ps1  =
 data/module_source/management/
 
 ------------------------------------------------------------------------------------------------------------- 
 
-Path File ScriptBlock.py            to
-
- Empire/lib/modules/management/
-Path File ScriptBlock.pyc          to  
-
+Path File ScriptBlock.py =
 Empire/lib/modules/management/
-Path File ScriptBlock.ps1         to  
 
+Path File ScriptBlock.pyc = 
+Empire/lib/modules/management/
+
+Path File ScriptBlock.ps1 = 
 data/module_source/management/
 -------------------------------------------------------------------------------------------------------------
-Path File bypass_Restricted_language.py    to 
-
+Path File bypass_Restricted_language.py = 
 Empire/lib/modules/management/bypass_Restricted_language.py
-Path File bypass_Restricted_language.pyc   to  
 
+Path File bypass_Restricted_language.pyc 
 Empire/lib/modules/management/bypass_Restricted_language.pyc
-Path File bypass_Restricted_language.ps1   to    
--------------------
+
+Path File bypass_Restricted_language.ps1
 data/module_source/management/bypass_Restricted_language.ps1
 
 --------------------------------------------------------------------------------------------------------------
 Stager
  
-Path File  bashrc.py     to     
-
+Path File  bashrc.py =
 Empire/lib/stagers/multi/
-Path File bashrc.pyc    to    
 
+Path File bashrc.pyc =
 Empire/lib/stagers/multi/
 ---------------------------------------------------------------------------------------------------------------
-Path File  Stager-Via-COM-Hijacking.py     to      
-
+Path File  Stager-Via-COM-Hijacking.py =
 Empire/lib/stagers/windows/
-Path File Stager-Via-COM-Hijacking.pyc   to   
 
+Path File Stager-Via-COM-Hijacking.pyc =
 Empire/lib/stagers/windows/
 --------------------------------------
