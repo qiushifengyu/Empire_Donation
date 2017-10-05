@@ -24,13 +24,15 @@ Empire/lib/modules/management/
 Path File Memory-spasm.ps1   to
 
 data/module_source/management/
+
 ------------------------------------------------------------------------------------------------------------- 
+
 Path File ScriptBlock.py            to
 
  Empire/lib/modules/management/
 Path File ScriptBlock.pyc          to  
 
-\ Empire/lib/modules/management/
+Empire/lib/modules/management/
 Path File ScriptBlock.ps1         to  
 
 data/module_source/management/
@@ -42,8 +44,9 @@ Path File bypass_Restricted_language.pyc   to
 
 Empire/lib/modules/management/bypass_Restricted_language.pyc
 Path File bypass_Restricted_language.ps1   to    
-
+-------------------
 data/module_source/management/bypass_Restricted_language.ps1
+
 --------------------------------------------------------------------------------------------------------------
 Stager
  
