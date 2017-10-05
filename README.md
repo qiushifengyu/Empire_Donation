@@ -15,6 +15,7 @@
 ![wallhaven-205608](https://user-images.githubusercontent.com/25440152/29684174-007ca708-88df-11e7-93d8-14a6523696c3.jpg)
 ---------------------------------
 
+```
 Path File Memory-spasm.py =
 Empire/lib/modules/management/
 
@@ -59,3 +60,4 @@ Empire/lib/stagers/windows/
 Path File Stager-Via-COM-Hijacking.pyc =
 Empire/lib/stagers/windows/
 --------------------------------------
+```
