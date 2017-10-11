@@ -12,9 +12,7 @@
 
 ![wallhaven-205608](https://user-images.githubusercontent.com/25440152/29684174-007ca708-88df-11e7-93d8-14a6523696c3.jpg)
 ---------------------------------
-# [Empire Version 2.2 Releases](https://twitter.com/subTee)
-
-https://github.com/jihadLkmaty218/Empire_2.2/releases
+# [Empire Version 2.2 Releases](https://github.com/jihadLkmaty218/Empire_2.2/releases)
 ```
 Path File Memory-spasm.py =
 Empire/lib/modules/management/
