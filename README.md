@@ -6,8 +6,6 @@
 ### from is Matt Homjxie ? in Empire-powershell 
 ### I am a developer New In a project Empire-Powershell Thanks Alls
 ---
-![empire_logo_black4](https://user-images.githubusercontent.com/25440152/29976843-713eae34-8f09-11e7-8c4d-d87b79eddcbb.png)
-
 ========================================================================||>
 ========================================================================||>
 ## --- Here will be displayed All Module Empire-Powershell my !
