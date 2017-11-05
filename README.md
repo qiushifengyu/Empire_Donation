@@ -59,3 +59,5 @@ Path File Stager-Via-COM-Hijacking.pyc =
 Empire/lib/stagers/windows/
 --------------------------------------
 ```
+
+![capture](https://user-images.githubusercontent.com/25440152/32418109-5f85369a-c26c-11e7-9747-147839673098.PNG)
