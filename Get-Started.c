@@ -1,6 +1,7 @@
 #> this subject About Facilitate my infrastructure 
 #> to Users Empire-Powershell
 #> Made in a unique and easy way without any fatigue //man 
+#> path this file Is in File Empire //
 cd ..
 cd ..
 echo "Home you/User"
