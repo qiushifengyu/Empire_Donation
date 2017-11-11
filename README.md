@@ -73,7 +73,4 @@ now open Window Terminal new
 And write empire
 <#
 ```
--------------------------------------------------------
-
-![vokoscreen-2017-11-10_22-26-21](https://user-images.githubusercontent.com/25440152/32684057-0f3a5496-c64e-11e7-8d75-919fc7bc79ae.gif)
-
+------------------------------------------------------
