@@ -59,3 +59,14 @@ Path File Stager-Via-COM-Hijacking.pyc =
 Empire/lib/stagers/windows/
 --------------------------------------
 ```
+
+```
+root@kali:~/Desktop/Empire# chmod +x Get-Started.c 
+root@kali:~/Desktop/Empire# ./Get-Started.c 
+Home you/User
+root
+Home you/User2
+root
+root@kali:~/Desktop/Empire#
+
+```
