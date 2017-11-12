@@ -4,7 +4,7 @@ class Stager:
     def __init__(self, mainMenu, params=[]):
         
         self.info = {
-            'Name': 'Bashrc file',
+            'Name': 'Generation file COM-Hijacking in file bat to Cerate file in Windows And Execute Via add raw-link file sct of Github or gist',
 
             'Author': '@homjxi0e @subTee',
 
